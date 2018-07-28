@@ -17,12 +17,14 @@ from django.contrib import admin
 from django.urls import path
 from django.conf import settings
 from django.conf.urls.static import static
-from profiles.views import home, about
+from profiles import views as profiles_view
+from contact import views as contact_view
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', home, name="index"),
-    path('about/', about, name="about"),
+    path('', profiles_view.home, name="index"),
+    path('about/', profiles_view.about, name="about"),
+    path('about/', contact_view.contact, name="contact"),
 ]
 
 if settings.DEBUG:
