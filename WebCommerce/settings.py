@@ -16,10 +16,10 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = "eisner.lopez@gmail.com"
-EMAIL_HOST_PASSWORD = "JeshuaDroid2015"
-EMAIL_PORT = "587"
-EMAIL_USE_TSL = True
+EMAIL_HOST_USER = 'eisner.lopez@gmail.com'
+EMAIL_HOST_PASSWORD = 'rujgexgmxlbqmubq'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/
@@ -42,6 +42,31 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'profiles.apps.ProfilesConfig',
+    'crispy_forms',
+    'django.contrib.sites',
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
+    'allauth.socialaccount.providers.dropbox',
+    'allauth.socialaccount.providers.azure',
+    'allauth.socialaccount.providers.facebook',
+    'allauth.socialaccount.providers.evernote',
+    'allauth.socialaccount.providers.google',
+    'allauth.socialaccount.providers.github',
+    'allauth.socialaccount.providers.linkedin',
+    'allauth.socialaccount.providers.openid',
+    'allauth.socialaccount.providers.persona',
+    'allauth.socialaccount.providers.reddit',
+    'allauth.socialaccount.providers.shopify',
+    'allauth.socialaccount.providers.slack',
+    'allauth.socialaccount.providers.soundcloud',
+    'allauth.socialaccount.providers.stackexchange',
+    'allauth.socialaccount.providers.telegram',
+    'allauth.socialaccount.providers.twitch',
+    'allauth.socialaccount.providers.twitter',
+    'allauth.socialaccount.providers.vimeo',
+    'allauth.socialaccount.providers.weibo',
+    'allauth.socialaccount.providers.xing',
 ]
 
 MIDDLEWARE = [
@@ -72,6 +97,14 @@ TEMPLATES = [
         },
     },
 ]
+
+AUTHENTICATION_BACKENDS = (
+    # Needed to login by username in Django admin, regardless of `allauth`
+    'django.contrib.auth.backends.ModelBackend',
+
+    # `allauth` specific authentication methods, such as login by e-mail
+    'allauth.account.auth_backends.AuthenticationBackend',
+)
 
 WSGI_APPLICATION = 'WebCommerce.wsgi.application'
 
@@ -127,3 +160,11 @@ if DEBUG:
     MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR), "/static'", "media")
     STATICFILES_DIRS = (os.path.dirname(BASE_DIR), "/static/", "static")
 
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+SITE_ID = 1
+
+LOGIN_URL = '/accounts/login'
+LOGIN_REDIRECT_URL = '/'
+
+ACCOUNT_AUTHENTICATION_METHOD = "username_email"
