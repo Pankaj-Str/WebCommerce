@@ -2,6 +2,7 @@
   <dictionary name="eisne">
     <words>
       <w>allauth</w>
+      <w>bootstrapform</w>
       <w>jumbotron</w>
     </words>
   </dictionary>
