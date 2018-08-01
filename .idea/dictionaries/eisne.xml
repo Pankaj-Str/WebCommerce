@@ -4,6 +4,7 @@
       <w>allauth</w>
       <w>bootstrapform</w>
       <w>jumbotron</w>
+      <w>socialaccount</w>
     </words>
   </dictionary>
 </component>
