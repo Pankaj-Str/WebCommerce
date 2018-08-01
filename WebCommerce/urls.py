@@ -13,6 +13,10 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+from importlib import import_module
+
+from allauth import app_settings
+from allauth.socialaccount import providers
 from django.conf.urls import url
 from django.contrib import admin
 from django.urls import path, include
@@ -33,3 +37,14 @@ if settings.DEBUG:
     urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
+if app_settings.SOCIALACCOUNT_ENABLED:
+    urlpatterns += [url(r'^social/', include('allauth.socialaccount.urls'))]
+
+for provider in providers.registry.get_list():
+    try:
+        prov_mod = import_module(provider.get_package() + '.urls')
+    except ImportError:
+        continue
+    prov_urlpatterns = getattr(prov_mod, 'urlpatterns', None)
+    if prov_urlpatterns:
+        urlpatterns += prov_urlpatterns

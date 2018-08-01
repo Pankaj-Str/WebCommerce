@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fea2d0df-3557-45d0-b7da-11ed404c1e96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/contact/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profiles/templates/account/logout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/account/logout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCommerce/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebCommerce/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profiles/templates/account/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/templates/account/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/profiles/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/profiles/navbar.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,8 +36,8 @@
           <entry key="CONFIGURATION_DJANGOallauth" value="4" />
           <entry key="configuration_django_allauth" value="7" />
           <entry key="dummy" value="1" />
-          <entry key="html" value="1183" />
-          <entry key="py" value="2307" />
+          <entry key="html" value="1411" />
+          <entry key="py" value="2328" />
           <entry key="py@WebCommerce" value="105" />
           <entry key="txt" value="56" />
         </counts>
@@ -41,9 +45,9 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CommandLine" value="53" />
-          <entry key="HTML" value="1183" />
+          <entry key="HTML" value="1411" />
           <entry key="PLAIN_TEXT" value="116" />
-          <entry key="Python" value="2307" />
+          <entry key="Python" value="2328" />
           <entry key="TypeScript" value="4" />
         </counts>
       </usages-collector>
@@ -52,18 +56,18 @@
           <entry key="CONFIGURATION_DJANGOallauth" value="1" />
           <entry key="configuration_django_allauth" value="1" />
           <entry key="css" value="2" />
-          <entry key="html" value="15" />
+          <entry key="html" value="21" />
           <entry key="js" value="1" />
-          <entry key="py" value="18" />
+          <entry key="py" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="2" />
-          <entry key="HTML" value="15" />
+          <entry key="HTML" value="21" />
           <entry key="JavaScript" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="18" />
+          <entry key="Python" value="21" />
           <entry key="TypeScript" value="1" />
         </counts>
       </usages-collector>
@@ -77,64 +81,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contact/forms.py">
+        <entry file="file://$PROJECT_DIR$/WebCommerce/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="380">
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
               <folding>
-                <element signature="e#0#24#0" expanded="true" />
-                <marker date="1532917331270" expanded="true" signature="254:259" ph="..." />
+                <element signature="e#635#670#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contact/apps.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contact/admin.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contact/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contact/tests.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contact/models.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/profiles/templates/account/signup.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/profiles/templates/profiles/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -142,17 +95,27 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/profiles/navbar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="22" column="140" selection-start-line="22" selection-start-column="140" selection-end-line="22" selection-end-column="140" />
+            <state relative-caret-position="159">
+              <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/profiles/templates/account/logout.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/contact/contact.html">
+        <entry file="file://$PROJECT_DIR$/templates/account/logout.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebCommerce/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+            <state relative-caret-position="-544">
+              <caret line="57" column="21" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -207,10 +170,11 @@
         <option value="$PROJECT_DIR$/templates/account/signup.html" />
         <option value="$PROJECT_DIR$/venv/Lib/site-packages/allauth/templates/account/signup.html" />
         <option value="$PROJECT_DIR$/profiles/templates/account/signup.html" />
+        <option value="$PROJECT_DIR$/templates/contact/contact.html" />
         <option value="$PROJECT_DIR$/profiles/templates/account/login.html" />
         <option value="$PROJECT_DIR$/WebCommerce/urls.py" />
         <option value="$PROJECT_DIR$/templates/profiles/navbar.html" />
-        <option value="$PROJECT_DIR$/templates/contact/contact.html" />
+        <option value="$PROJECT_DIR$/profiles/templates/account/logout.html" />
       </list>
     </option>
   </component>
@@ -299,6 +263,12 @@
             <path>
               <item name="WebCommerce" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebCommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="profiles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebCommerce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebCommerce" type="462c0819:PsiDirectoryNode" />
               <item name="WebCommerce" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -326,6 +296,7 @@
       <recent name="C:\Users\eisne\Music\udemy\WebCommerce\profiles\templates" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\eisne\Music\udemy\WebCommerce\templates\account" />
       <recent name="C:\Users\eisne\Music\udemy\WebCommerce\templates" />
       <recent name="C:\Users\eisne\Music\udemy\WebCommerce\contact\templates\contact" />
       <recent name="C:\Users\eisne\Music\udemy\WebCommerce\profiles\templates\profiles" />
@@ -407,7 +378,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19060403" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -484,13 +454,6 @@
     <entry file="file://$PROJECT_DIR$/profiles/static/js/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/profiles/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/profiles/templates/profiles/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -517,13 +480,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="25" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebCommerce/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2108">
-          <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -560,34 +516,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/profiles/templates/account/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="45" column="63" selection-start-line="45" selection-start-column="63" selection-end-line="45" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebCommerce/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="27" column="8" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="8" />
-          <folding>
-            <element signature="e#635#667#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/profiles/templates/profiles/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/profiles/navbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="22" column="140" selection-start-line="22" selection-start-column="140" selection-end-line="22" selection-end-column="140" />
         </state>
       </provider>
     </entry>
@@ -600,9 +532,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contact/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/contact/forms.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -628,6 +557,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/contact/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/contact/models.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -644,6 +576,50 @@
           <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCommerce/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-544">
+          <caret line="57" column="21" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profiles/templates/account/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="9" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/profiles/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCommerce/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="e#635#670#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/profiles/navbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profiles/templates/account/logout.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/account/logout.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
